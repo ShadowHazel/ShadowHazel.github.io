@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: 3
 title: "Title"
 date: 2019-02-21
 ---
