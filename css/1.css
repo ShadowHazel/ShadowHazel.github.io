@@ -41,3 +41,9 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+div ul {
+    font-size: 1.5em;
+}
+div ul li {
+    font-size: 1.5em;
+}
