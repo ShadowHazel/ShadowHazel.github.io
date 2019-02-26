@@ -1,8 +1,34 @@
----
-layout: 2
-title: Testing Html
----
-<div class="blurb">
-	<h1>Title</h1>
-	<p>Alot of normal text is here in order to test whatever I feel like testing.  <em>Italicized Text.  </em>Alot of normal text is here, as well, in order to test whatever I feel like testing.  <a href="/pages/about">Link to Second Page</a></p>
-</div>
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!--<link rel="stylesheet" type="text/css" href="/css/2.css">-->
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<!--<li><a href="/cv">Third Page</a></li>
+	        		<li><a href="/blog">Fourth Page</a></li>-->
+				<li><a href="/">Home</a></li>
+				<li><a href="/pages/serv">Services</a></li>
+				<li><a href="/pages/about">About</a></li>
+				<li><a href="/pages/test">Test Page</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			<div class="blurb">
+				<h1>Title</h1>
+				<p>Alot of normal text is here in order to test whatever I feel like testing.  <em>Italicized Text.  </em>Alot of normal text is here, as well, in order to test whatever I feel like testing.  <a href="/pages/about">Link to Second Page</a></p>
+			</div>
+			
+			</div>
+			<footer>
+	    		<ul>
+	        		<li><a href="http://jmcglone.com/guides/github-pages/">Base Templete/Guide I used</a></li>
+	        		<li><a href="https://marksheet.io/html-syntax.html">Link to html syntax</a></li>
+				<li><a href="https://www.w3schools.com/html/default.asp">Link to w3schools</a></li>
+				</ul>
+			</footer>
+		</body>
+  </html>
