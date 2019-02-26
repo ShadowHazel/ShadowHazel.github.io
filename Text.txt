@@ -1,3 +1,7 @@
+---
+layout: 2
+title: Testing Html
+---
 <div class="blurb">
 	<h1>Title</h1>
 	<p>Alot of normal text is here in order to test whatever I feel like testing.  <em>Italicized Text.  </em>Alot of normal text is here, as well, in order to test whatever I feel like testing.  <a href="/pages/about">Link to Second Page</a></p>
